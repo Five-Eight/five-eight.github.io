@@ -16,7 +16,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #f4623a;
+  --orange: #ffa405;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -10113,7 +10113,7 @@ header.masthead h1 {
     font-size: 1.15rem;
   }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 1200px) {
@@ -10180,5 +10180,53 @@ header.masthead h1 {
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.7rem;
+  }
+}
+
+#mainNav .navbar-brand {
+  background: url("../assets/img/58logo-normal.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 67px;
+  width: 200px;
+}
+@media (min-width: 992px) {
+  #mainNav .navbar-brand {
+    background: url("../assets/img/58logo-light.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  #mainNav.navbar-scrolled .navbar-brand {
+    background: url("../assets/img/58logo-normal.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
+
+#about header {
+  background: linear-gradient(to bottom, rgba(0, 29, 72, 0.8) 0%, rgba(0, 29, 72, 0.8) 100%), url("../assets/img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+#about header h1 {
+  font-size: 2.5rem;
+}
+@media (min-width: 992px) {
+  #about header {
+    height: auto;
+    min-height: 0;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
   }
 }
