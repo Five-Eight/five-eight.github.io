@@ -10170,6 +10170,11 @@ header.masthead h1 {
   background-image: url("../assets/img/showcase2.jpg");
 }
 
+.showcase-img3-url {
+  background-image: url("../assets/img/showcase3.jpg");
+  background-position: center;
+}
+
 .showcase .showcase-text {
   padding: 3rem;
 }
@@ -10213,7 +10218,7 @@ header.masthead h1 {
 }
 
 #about header {
-  background: linear-gradient(to bottom, rgba(0, 29, 72, 0.8) 0%, rgba(0, 29, 72, 0.8) 100%), url("../assets/img/bg.jpg");
+  background: linear-gradient(to bottom, rgba(0, 29, 72, 0.9) 80%, rgba(0, 29, 72, 0.9) 100%), url("../assets/img/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10225,8 +10230,14 @@ header.masthead h1 {
 @media (min-width: 992px) {
   #about header {
     height: auto;
-    min-height: 0;
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
+    min-height: 10rem;
+    padding-top: calc(9rem + 4.5rem);
+    padding-bottom: 8rem;
   }
+}
+#about h5 {
+  line-height: 2.2em;
+}
+#about p {
+  line-height: 1.6em;
 }
